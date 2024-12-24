@@ -130,5 +130,5 @@ CMD yes "" | head -n 3 | /opt/dkn-compute-node/dkn-compute-launcher
 EOL
 
 
-docker build -t $CONTAINER_NAME .
-docker run --privileged --cap-add=NET_ADMIN -d --name $CONTAINER_NAME $CONTAINER_NAME 
+#docker build -t $CONTAINER_NAME .
+#docker run --privileged --cap-add=NET_ADMIN -d --name $CONTAINER_NAME $CONTAINER_NAME 
